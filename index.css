@@ -1,0 +1,18 @@
+* {
+    box-sizing: border-box;
+  }
+  
+  .row::after {
+    content: normal;
+    clear: both;
+    display: flex;
+    text-align: center;
+  }
+  .column{
+    float:left ;
+    width: 20%;
+    padding: 10px;
+  }
+  h2{
+    
+  }
